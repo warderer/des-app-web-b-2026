@@ -27,3 +27,13 @@ h1 {
 #columna-izquierda, #columna-derecha {
     width:40%;
 }
+
+#portafolio img {
+    width: 400px;
+}
+
+#portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
