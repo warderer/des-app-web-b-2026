@@ -18,3 +18,12 @@ h1 {
     background-color: #fff;
     color: #3d8b9c;
 }
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#columna-izquierda, #columna-derecha {
+    width:40%;
+}
