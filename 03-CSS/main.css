@@ -37,3 +37,8 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#video-idm {
+    display: flex;
+    justify-content: center;
+}
