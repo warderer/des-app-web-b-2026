@@ -6,7 +6,13 @@ function preguntarIMC(){
     const peso = parseFloat(prompt("¿Cuál es tu peso?"))
     const altura = parseFloat(prompt("¿Cuál es tu altura?"))
     const IMC = calcularIMC(peso, altura)
-    alert("Tu Indice de Masa Corporal es " + IMC)
+
+    var categoria = ""
+    if (IMC < 18.5) categoria = "Peso Bajo"
+    else if (IMC < 25) categoria = "Peso Normal"
+    else if (IMC < 30) categoria = "Sobrepeso"
+    else categoria = "Obesidad"
+    alert("Tu Indice de Masa Corporal es " + IMC + " estas con " + categoria)
 }
 
 preguntarIMC()
